@@ -1,0 +1,36 @@
+# --- Competition data (not ours to redistribute; also 2.4 GB) ---
+dataset/
+raw_data/
+
+# --- Pipeline caches and intermediate artefacts (parquet, candidates, models, logs) ---
+work/
+work_*/
+
+# --- Generated outputs (TSVs are ~700 MB, above GitHub's 100 MB file limit) ---
+output/
+output_*/
+*.tsv
+*.parquet
+*.pkl
+*.npy
+
+# --- Submission package: keep only the filled-in methodology document ---
+submission/*
+!submission/Chaicopath_submission/
+submission/Chaicopath_submission/*
+!submission/Chaicopath_submission/Documentation_template.md
+*.zip
+
+# --- Environment and secrets ---
+.venv/
+venv/
+.env
+.env.*
+
+# --- Python / Jupyter / editor noise ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
