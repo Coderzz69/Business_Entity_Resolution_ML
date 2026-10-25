@@ -9,10 +9,7 @@ Indian scripts, with typos, shuffled words, `a/k/a` aliases and web handles glue
 numbers are mangled, and about a quarter of the pool matches nothing. Scoring is per-entity F0.5,
 so a false match costs twice as much as a missed one.
 
-<p align="center">
-  <a href="docs/demo.mp4"><img src="docs/demo.gif" width="800" alt="From 17 trillion possible pairs to a 0.9720 F0.5: the pipeline in 39 seconds"></a>
-  <br><a href="docs/demo.mp4"><b>▶ Watch the 39-second walkthrough (with sound)</b></a>
-</p>
+https://github.com/user-attachments/assets/0541e996-ea9a-45cc-a9cf-72948d27b3a7
 
 **Held-out macro F0.5: 0.9720** (ROC AUC 0.9996), on CPU plus a laptop RTX 3050, with no external data,
 APIs or pretrained models.
